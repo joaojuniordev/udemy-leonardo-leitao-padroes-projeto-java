@@ -1,0 +1,76 @@
+{
+    "s00":{
+        "description":"Seção não faz parte do curso, é utilizada para configuração/quetões mais gerais, como o uso do git flow.",
+        "comment":[
+            "Algumas aulas (lessons), por serem simples demais ou possuirem temas básicos, serão omitidas;",
+            " significa que possivelmente terão suas explicações/comentários restridas(os) ao códigos produzidos nas aulas,",
+            " ou seja, as explicações destas não estão nesse resumo, mas sim nos arquivos.java das mesmas."
+        ],
+        "lessons":{
+            "l000":{
+                "description":"",
+                "comment":[""],
+                "contents":{}
+            }
+        },
+        "codeReference":{
+            "example":"Mini projeto SPA (para navegar na mesma pagina) com gulp: s00-gilp:spa/"            
+        },
+        "resources":{
+            "gitflow":[
+                "(OLHAR O PRINT) https://www.youtube.com/watch?v=wzxBR4pOTTs",
+                "   OBS: so as branchs master e develop são infinitas, as demais sao criadas e deletadas!",
+                "2.1- $ git flow init (não fazer: $ git init)",
+                "   Obs: Enter... (Padrão para todas)",                
+                "2.2- $ git flow feature start nome_branch", 
+                "   Obs: criar feature a partir da develop",                
+                "2.3- $ git flow feature finish nome_branch", 
+                "   Obs: Após feito a tarefa é só fechar a feature (Autom. faz merge e deleta a feature)",            
+                "2.4- $ git flow realese start 0.1.0 ",
+                "   Obs: criar feature a partir da develop",            
+                "2.5- $ git flow realese finish nome_branch", 
+                "   Obs: Após feito a tarefa é só fechar a feature", 
+                "   (Autom. faz merge com master e develop e deleta a feature)"
+            ]
+        }
+    },
+    "s01":{
+        "description":"Introdução",
+        "comment":[
+            "Algumas aulas (lessons), por serem simples demais ou possuirem temas básicos, serão omitidas;",
+            " significa que possivelmente terão suas explicações/comentários restridas(os) ao códigos produzidos nas aulas,",
+            " ou seja, as explicações destas não estão nesse resumo, mas sim nos arquivos.java das mesmas."
+        ],
+        "lessons":{
+            "l001":{
+                "description":"Visão geral do curso",
+                "comment":[""],
+                "contents":[
+                    "Curso dividiso em seções: (Baseado no Livro GoF)",
+                    "   + Padrões de projetos criacionais",
+                    "   + Padrões de projetos estruturais",
+                    "   + Padrões de projetos comportamentais"
+                ]
+            }
+        },
+        "resources":{}
+    },
+    "szz":{
+        "description":"",
+        "comment":[
+            "Algumas aulas (lessons), por serem simples demais ou possuirem temas básicos, serão omitidas;",
+            " significa que possivelmente terão suas explicações/comentários restridas(os) ao códigos produzidos nas aulas,",
+            " ou seja, as explicações destas não estão nesse resumo, mas sim nos arquivos.java das mesmas."
+        ],
+        "lessons":{
+            "l000":{
+                "description":"",
+                "comment":[""],
+                "contents":{
+
+                }
+            }
+        },
+        "resources":{}
+    }
+}
