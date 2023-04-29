@@ -14,7 +14,7 @@
             }
         },
         "codeReference":{
-            "example":"Mini projeto SPA (para navegar na mesma pagina) com gulp: s00-gilp:spa/"            
+            "API Fuent":"Exemplo de API Fuent (com chamada encadeada de metodos): User().getA().getB(): s02-build#05:meat/fuent/model/builder/"
         },
         "resources":{
             "gitflow":[
@@ -55,6 +55,22 @@
         },
         "resources":{}
     },
+    "s02":{
+        "description":"Padrões de Projetos Criacionais",
+        "comment":[
+            "Algumas aulas (lessons), por serem simples demais ou possuirem temas básicos, serão omitidas;",
+            " significa que possivelmente terão suas explicações/comentários restridas(os) ao códigos produzidos nas aulas,",
+            " ou seja, as explicações destas não estão nesse resumo, mas sim nos arquivos.java das mesmas."
+        ],
+        "lessons":{
+            "l011":{
+                "description":"Introdução",
+                "comment":[""],
+                "contents":{}
+            }
+        },        
+        "resources":{}
+    },
     "szz":{
         "description":"",
         "comment":[
@@ -66,9 +82,7 @@
             "l000":{
                 "description":"",
                 "comment":[""],
-                "contents":{
-
-                }
+                "contents":{}
             }
         },
         "resources":{}
